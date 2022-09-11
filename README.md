@@ -6,7 +6,9 @@ Product: Stock management system
 - Add stock
 - Adjust details and quantities of stock
 
-See the [API design](./docs/api.md) page for detail on data modelling and API endpoints.
+[API design](./docs/api.md) presents details on on API endpoints and data modelling.
+
+[Interface](./docs/interface.md) describes the features of the web  interface.
 
 ## Objectives
 
