@@ -17,8 +17,17 @@ Serverless web application comprises of
   - CosmosDB persistence
 */
 
+// /* API */
+// module api './interface/api.bicep' = {
+//   name: 'api'
+//   params: {
+//     appName: appName
+//     location: location
+//   }
+// }
+
 /* WEB INTERFACE */
-module webInterface './web/interface.bicep' = {
+module webInterface './interface/site.bicep' = {
   name: 'webInterface'
   params: {
     appName: appName

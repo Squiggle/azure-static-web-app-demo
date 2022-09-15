@@ -14,3 +14,4 @@ resource storageAccount 'Microsoft.Web/staticsites@2022-03-01' = {
     size: sku
   }
 }
+/* TODO: link to API Management */

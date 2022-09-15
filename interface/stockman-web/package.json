@@ -1,0 +1,27 @@
+{
+  "name": "stockman-web",
+  "version": "1.0.0",
+  "description": "Web front end for Stock Management PoC app",
+  "main": "index.tsx",
+  "scripts": {
+    "watch": "concurrently \"npm run build-dev\" \"serve www\"",
+    "start": "esbuild app.tsx --bundle --servedir=www/ --outdir=www/js --serve=8000",
+    "build-dev": "esbuild app.tsx --bundle --servedir=www/ --outdir=www/js",
+    "build": "esbuild app.tsx --bundle --minify --outdir=www/js",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/static-web-apps-cli": "^1.0.2",
+    "@types/react": "^18.0.20",
+    "@types/react-dom": "^18.0.6",
+    "esbuild": "^0.15.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.4.0",
+    "serve": "^14.0.1"
+  }
+}
