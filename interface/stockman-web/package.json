@@ -4,7 +4,7 @@
   "description": "Web front end for Stock Management PoC app",
   "main": "index.tsx",
   "scripts": {
-    "watch": "concurrently \"npm run build-dev\" \"serve www\"",
+    "watch": "concurrently \"yarn build-dev\" \"serve www\"",
     "start": "esbuild app.tsx --bundle --servedir=www/ --outdir=www/js --serve=8000",
     "build-dev": "esbuild app.tsx --bundle --servedir=www/ --outdir=www/js",
     "build": "esbuild app.tsx --bundle --minify --outdir=www/js",

@@ -2,12 +2,6 @@
 
 We use the `swa` [command line for local development](https://azure.github.io/static-web-apps-cli/docs/intro) as described in [Microsoft's SWA documentation](https://docs.microsoft.com/en-us/azure/static-web-apps/local-development)
 
-Installing the `swa` command line:
-
-```
-npm install -g @azure/static-web-apps-cli
-```
-
 The `swa` CLI acts as a wrapper around
 - a hosted web application (e.g. using npm)
 - a redirect on `/api` requests to a hosted Azure Functions application

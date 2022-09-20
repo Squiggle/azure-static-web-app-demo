@@ -5,9 +5,9 @@
       "appLocation": "stockman-web",
       "apiLocation": "stockman-api",
       "outputLocation": "build",
-      "appBuildCommand": "npm run build",
+      "appBuildCommand": "yarn build",
       "apiBuildCommand": "dotnet publish -c Release",
-      "run": "npm run watch",
+      "run": "yarn watch",
       "appDevserverUrl": "http://localhost:8000",
       "apiPort": 7071
     }
